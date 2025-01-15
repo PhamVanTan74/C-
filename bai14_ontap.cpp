@@ -33,9 +33,11 @@ class nv{
 		void xuat(){
 			cout<<"\nHo ten: "<<ht<<"\nChuc vu: "<<cv<<"\nGioi tinh: "<<gt<<"\nNam sinh: "<<ns<<"\nDia chi: "<<dc<<"\nNam vao lam: "<<nvl<<endl;
 		}
+		
 		int tinhtuoi(){
 			return 2025-ns;
 		}
+		
 		bool nghihuu(){
 			if((gt == "nam" && tinhtuoi()>=60) || (gt == "nu" && tinhtuoi()>=55 ))
 		{
@@ -43,6 +45,7 @@ class nv{
 		}
 			return false;
 		}
+		
 		bool namvaolam(){
 			return 2025-nvl;
 		}

@@ -28,7 +28,7 @@ class ts{
 			return dt+dl+dh;
 			}
 		void xuat(){
-			cout<<"\nMa thi sinh: "<<mats<<"\nHo ten:"<<ht<<"\nDiem toan: "<<dt<<"\nDiem ly: "<<dl<<"\nDiem hoa: "<<dh<<endl;
+			cout<<"\tMa thi sinh: \n"<<mats<<"\tHo ten: \n"<<ht<<"\tDiem toan: \n"<<dt<<"\tDiem ly: \n"<<dl<<"\tDiem hoa: \n"<<dh<<endl;
 			cout<<"\nTong diem:"<<tongdiem()<<endl;
 		}
 		bool diemyc(){
